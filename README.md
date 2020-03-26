@@ -23,7 +23,8 @@ Os Packages:
 # Conexão Sql Server
 Ao fazer a conexão ao banco de dados via Sql Server, em vez entrar e criar tabela, fiz via Json, não precisar entrar no sql server e criar as tabelas, você cria as classes que serão os principais fornecedores que vão exibir na tela ou não como foi os campos data de criação e data de atualização nele poderia ver via sql server (neste momento eu pensei). Mas você precisa colocar o nome de Catalog como segui no exemplo logo abaixo. Segue o código que você cria em json "appsettings.json":
 
-``sh{   
+```sh
+{   
     "ConnectionStrings": 
 {     
      "DefaultConnection": "Data Source=LAPTOP-EU4I8EBK\\SQLEXPRESS;Initial Catalog=Beyond;Integrated Security=False;User ID=sa;Password=123;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False"   
@@ -37,8 +38,7 @@ Ao fazer a conexão ao banco de dados via Sql Server, em vez entrar e criar tabe
      },   
  "AllowedHosts": "*" 
  }
- 
-´´´´´´´´´´
+```
 
 
 # Conclusão:
